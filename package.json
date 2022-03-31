@@ -1,0 +1,30 @@
+{
+  "name": "quiz-cli",
+  "version": "1.0.0",
+  "description": "A CLI based quiz",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayroy247/quiz-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayroy247/quiz-cli/issues"
+  },
+  "homepage": "https://github.com/kayroy247/quiz-cli#readme",
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.0.0"
+  }
+}
